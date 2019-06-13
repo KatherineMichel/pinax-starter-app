@@ -36,5 +36,4 @@ DATABASES = {
     }
 }
 SITE_ID=1
-ROOT_URLCONF = "pinax.{{ app_name }}.tests.urls"
 SECRET_KEY = "notasecret"
