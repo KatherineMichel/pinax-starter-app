@@ -6,5 +6,5 @@ init:
 
 test:
 	coverage erase
-	detox
+	tox
 	coverage html
