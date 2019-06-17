@@ -52,7 +52,7 @@ Supported Django and Python Versions
 
 setup(
     author="Pinax Team",
-    author_email="team@pinaxprojects.com",
+    author_email="team@pinaxproject.com",
     description="<project description> for the Django web framework",
     name="pinax-{{ app_name }}",
     long_description=LONG_DESCRIPTION,
