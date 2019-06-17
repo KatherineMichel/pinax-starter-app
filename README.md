@@ -21,19 +21,18 @@ pip install Django
 django-admin.py startapp --template=https://github.com/pinax/pinax-starter-app/zipball/master --extension=py,rst,in,sh,rc,yml,cfg,ini,coveragerc <project_name>
 ```
 
-After you are running you have a fresh app, first update this readme by removing
-everything above and including this line.
-
----
-
 Running the Tests
 -------------------
 
 ```
-$ pip install detox
-$ detox
+$ pip install tox
+$ tox
 ```
 
+After you are running you have a fresh app, first update this readme by removing
+everything above and including this line.
+
+---
 
 ![](http://pinaxproject.com/pinax-design/patches/blank.svg)
 
