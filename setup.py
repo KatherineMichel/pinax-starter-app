@@ -5,9 +5,9 @@ LONG_DESCRIPTION = """
 .. image:: http://pinaxproject.com/pinax-design/patches/pinax-{{ app_name }}.svg
     :target: https://pypi.python.org/pypi/pinax-{{ app_name }}/
 
-=========
-Pinax App
-=========
+===============
+Pinax {{ app_name|title }}
+===============
 
 .. image:: https://img.shields.io/pypi/v/pinax-{{ app_name }}.svg
     :target: https://pypi.python.org/pypi/pinax-{{ app_name }}/
