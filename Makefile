@@ -6,5 +6,5 @@ init:
 
 test:
 	coverage erase
-	tox
+	tox --parallel
 	coverage html
