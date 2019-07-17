@@ -64,7 +64,7 @@ setup(
         "{{ app_name }}": []
     },
     install_requires=[
-        "Django>=2.0"
+        "Django>=2.1"
     ],
     tests_require=[
     ],
