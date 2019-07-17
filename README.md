@@ -26,7 +26,7 @@ Running the Tests
 
 ```
 $ pip install tox
-$ tox
+$ tox --parallel
 ```
 
 After you are running you have a fresh app, first update this readme by removing
