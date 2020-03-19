@@ -42,11 +42,11 @@ Supported Django and Python Versions
 ------------------------------------
 
 +-----------------+-----+-----+-----+
-| Django / Python | 3.5 | 3.6 | 3.7 |
+| Django / Python | 3.6 | 3.7 | 3.8 |
 +=================+=====+=====+=====+
-|  2.1            |  *  |  *  |  *  |
-+-----------------+-----+-----+-----+
 |  2.2            |  *  |  *  |  *  |
++-----------------+-----+-----+-----+
+|  3.0            |  *  |  *  |  *  |
 +-----------------+-----+-----+-----+
 """
 
@@ -64,25 +64,24 @@ setup(
         "{{ app_name }}": []
     },
     install_requires=[
-        "Django>=2.1"
+        "Django>=2.2"
     ],
     tests_require=[
     ],
     test_suite="runtests.runtests",
     classifiers=[
-        "Development Status :: 4 - Beta",
+        "Development Status :: 5 - Production/Stable",
         "Environment :: Web Environment",
         "Framework :: Django",
-        "Framework :: Django :: 2.0",
-        "Framework :: Django :: 2.1",
         "Framework :: Django :: 2.2",
+        "Framework :: Django :: 3.0",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
     zip_safe=False
