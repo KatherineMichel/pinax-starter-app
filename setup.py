@@ -68,6 +68,9 @@ setup(
     ],
     tests_require=[
     ],
+    extras_require={
+        "pytest": ["pytest", "pytest-django"]
+    },
     test_suite="runtests.runtests",
     classifiers=[
         "Development Status :: 4 - Beta",
