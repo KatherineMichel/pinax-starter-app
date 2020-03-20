@@ -1,5 +1,6 @@
 include AUTHORS
 include LICENSE
 include README.md
+recursive-include pinax/{{ app_name }}/locale *
 recursive-include pinax/{{ app_name }}/static *
 recursive-include pinax/{{ app_name }}/templates *
